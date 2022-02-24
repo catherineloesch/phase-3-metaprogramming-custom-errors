@@ -1,4 +1,3 @@
-
 class Person
   attr_accessor :partner, :name
 
@@ -17,7 +16,6 @@ class Person
         puts error.message
       end
     end
-    
   end
 
   class PartnerError < StandardError
@@ -26,14 +24,8 @@ class Person
     end
   end
 
-  
-
 end
 
 beyonce = Person.new("Beyonce")
 beyonce.get_married("Jay-Z")
 puts beyonce.name
-
-
-
-
